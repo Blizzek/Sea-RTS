@@ -49,10 +49,11 @@ namespace SeaRTS.Units
 
         private void HandleRepair()
         {
-            if (CurrentHealth.Value < maxHealth)
+            int maxHealthValue = GetMaxHealth();
+            if (CurrentHealth.Value < maxHealthValue)
             {
                 int healAmount = Mathf.CeilToInt(repairRate * Time.deltaTime);
-                CurrentHealth.Value = Mathf.Min(maxHealth, CurrentHealth.Value + healAmount);
+                CurrentHealth.Value = Mathf.Min(maxHealthValue, CurrentHealth.Value + healAmount);
             }
             else
             {

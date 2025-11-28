@@ -202,5 +202,13 @@ namespace SeaRTS.Units
         {
             return unitName;
         }
+
+        /// <summary>
+        /// Gets the unit's maximum health.
+        /// </summary>
+        protected int GetMaxHealth()
+        {
+            return maxHealth;
+        }
     }
 }
