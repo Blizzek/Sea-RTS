@@ -1,0 +1,20 @@
+{
+    "name": "SeaRTS.UI",
+    "rootNamespace": "SeaRTS.UI",
+    "references": [
+        "Unity.Netcode.Runtime",
+        "Unity.TextMeshPro",
+        "SeaRTS.Core",
+        "SeaRTS.Network",
+        "SeaRTS.Units"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
